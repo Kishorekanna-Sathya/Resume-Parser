@@ -1,29 +1,25 @@
 To run the provided Python script, you'll need to install the following libraries:
 
-1. *Essential Libraries:*
+1. Essential Libraries:
    - `os`: For interacting with the operating system.
    - `re`: For regular expressions to manipulate text.
    - `requests`: For making HTTP requests.
    - `sys`: For system-specific parameters and functions.
    - `json`: For working with JSON data.
 
-2. *AI Integration Library:*
+2. AI Integration Library:
    - `google.generativeai`: For interacting with Google's Generative AI models.
 
-3. *Text Extraction Libraries:*
+3. Text Extraction Libraries:
    - `pdfminer.high_level`: For extracting text from PDF files.
    - `docx`: For extracting text from DOCX files.
 
-4. *Data Analysis Library:*
+4. Data Analysis Library:
    - `pandas`: For data manipulation and analysis.
 
-**Installation:**
-
-You can install these libraries using `pip`:
-
-```bash
-pip install os re requests sys json google-generativeai pandas pdfminer.high_level python-docx
-```
+Installation:
+-bash
+   pip install os re requests sys json google-generativeai pandas pdfminer.high_level python-docx
 
 Note:
 -Ensure you have a Google Cloud Platform account and have enabled the Generative AI API.
